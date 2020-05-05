@@ -1,0 +1,171 @@
+body{
+background: url("140920_adapted_1080x2160.jpg");
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+.calbox
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    box-shadow: 0px 0px 5px 0px rgb(184, 178, 178);
+    border-radius: 20px;
+    background-size: inherit;
+    background-attachment: fixed;
+    border: none;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 312px;
+    height: 410px;
+}
+
+.calbox .heads{
+    padding-left: 0px;
+    box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.452);
+    padding-top: 30px;
+    border-top: none;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
+.calbox .heads h1
+{
+    box-shadow: 0px 5px 3px 0px rgba(255, 255, 255, 0.452);
+    border-bottom: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    font-size: 32px;
+    padding-left: 20px;
+}
+
+.calbox .heads h2
+{
+    padding-left: 20px;
+    font-size: 32px;
+    color: white;
+    border-bottom: 1px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 5px 3px 0px rgba(255, 255, 255, 0.452);
+
+}
+
+.calbox table
+{
+    
+    margin-top: 0px;
+    text-align: center;
+    padding: 11px;
+    border-radius: 5px;
+
+}
+.calbox table:hover{
+
+    cursor:  default;
+    margin-top: 0px;
+    text-align: center;
+    padding: 11px;
+    border-radius: 30px;
+    background: none;
+
+}
+
+.calbox table tr th
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    box-shadow: 0px 4px 3px 0px rgba(255, 255, 255, 0.452);
+    border-radius: 10px;
+
+}
+
+.calbox table tr th:hover{
+    color: white;
+
+}
+
+.calbox table tr td
+{
+    color: rgb(187, 172, 42);
+    cursor:  default;
+    box-shadow: 0px 0px 15px 0px rgb(0, 0, 0);
+    margin-top: 0px;
+    text-align: center;
+    padding: 0px;
+    border-radius: 30px;
+    background: none;
+}
+.calbox table tr td:hover
+{
+    color: white;
+    cursor:  default;
+    box-shadow: 0px 0px 15px 0px white;
+    margin-top: 0px;
+    text-align: center;
+    padding: 0px;
+    border-radius: 30px;
+    background: none;
+}
+
+#i26{box-shadow: none; color: grey; text-shadow: 10px 20px 20px 10px white; box-shadow: 0px 0px 15px 0px rgb(0, 0, 0);}
+#i27{box-shadow: none; color: grey; text-shadow: 10px 20px 20px 10px white; box-shadow: 0px 0px 15px 0px rgb(0, 0, 0);}
+#i28{box-shadow: none; color: grey; text-shadow: 10px 20px 20px 10px white; box-shadow: 0px 0px 15px 0px rgb(0, 0, 0);}
+#i29{box-shadow: none; color: grey; text-shadow: 10px 20px 20px 10px white; box-shadow: 0px 0px 15px 0px rgb(0, 0, 0);}
+#i30{box-shadow: none; color: grey; text-shadow: 10px 20px 20px 10px white; box-shadow: 0px 0px 15px 0px rgb(0, 0, 0);}
+#i1{box-shadow: none; color: grey; text-shadow: 10px 20px 20px 10px white; box-shadow: 0px 0px 15px 0px rgb(0, 0, 0);}
+#i2{box-shadow: none; color: grey; text-shadow: 10px 20px 20px 10px white; box-shadow: 0px 0px 15px 0px rgb(0, 0, 0);}
+#i3{box-shadow: none; color: grey; text-shadow: 10px 20px 20px 10px white; box-shadow: 0px 0px 15px 0px rgb(0, 0, 0);}
+#i4{box-shadow: none; color: grey; text-shadow: 10px 20px 20px 10px white; box-shadow: 0px 0px 15px 0px rgb(0, 0, 0);}
+#i5{box-shadow: none; color: grey; text-shadow: 10px 20px 20px 10px white; box-shadow: 0px 0px 15px 0px rgb(0, 0, 0);}
+#i6{box-shadow: none; color: grey; text-shadow: 10px 20px 20px 10px white; box-shadow: 0px 0px 15px 0px rgb(0, 0, 0);}
+#i005{box-shadow: none; color: color: rgb(187, 172, 42);; text-shadow: 10px 20px 20px 10px white; background-color: rgb(209, 49, 9);}
+.calbox table tr td:active
+{
+    color: rgb(209, 49, 9);
+    cursor:  default;
+    box-shadow: 0px 0px 15px 0px rgb(209, 49, 9);
+    margin-top: 0px;
+    text-align: center;
+    padding: 0px;
+    border-radius: 30px;
+    background: none;   
+}
+
+
+.topnav {
+    border-radius: 9px;
+    box-shadow: 0px 5px 5px 3px rgba(255, 255, 255, 0.452);
+    background-color: none;
+    overflow: hidden;
+    }
+    
+  
+.topnav a {
+    background-color: rgb(151, 199, 18);
+    border-radius: 9px;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+    
+  
+    .topnav a:hover {
+      background-color: none;
+      color: rgb(87, 69, 69);
+      box-shadow: 0px 0px 10px 0px white;
+    }
+    
+  
+    .topnav a:active {
+      background-color: rgb(209, 49, 9);
+      color: white;
+    }
+  
